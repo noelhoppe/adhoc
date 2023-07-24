@@ -14,7 +14,24 @@
     }
   }
 
-  .underline-on-hover:hover{
-    text-decoration: underline;
-    text-decoration-color: lightskyblue;
+  .highlited-on-hover:hover{
+    font-weight: bold;
   }
+
+  .bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
